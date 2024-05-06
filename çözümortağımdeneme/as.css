@@ -1,0 +1,108 @@
+
+body{
+background-color: rgb(205, 205, 255)
+}
+
+header{
+    margin: 0px;
+    padding: 2px;
+    background-color: white;
+    overflow: auto;
+}
+
+#img1{
+width: 64px;
+height: 64px;
+float: left;
+}
+
+#img2{
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: 0;
+    right: 0;
+    float: right;
+}
+
+.anabaslik{
+    text-shadow: 4px 4px 4px rgb(205, 205, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+button{
+width: 275px;
+height: 50px;
+}
+
+#divbuton{
+    align-items: center;
+    flex-direction: column;
+}
+
+#buttononeri{
+    display: block;
+    margin: 0 auto;
+}
+#buttonistek{
+    display: block;
+    float: right;
+}
+
+button{
+    flex: 1; 
+}
+
+#imgharita{
+   width: 100%; 
+   height: auto;
+}
+
+footer{
+    background-color: rgb(39, 39, 54);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+
+}
+
+#logoters{
+    width: 64px;
+    height: 64px;
+}
+
+.container { 
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.col{
+    width: 20%;
+    padding: 0 15px;
+}
+
+.col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+li{
+    text-decoration: none;
+    color: white;
+}
